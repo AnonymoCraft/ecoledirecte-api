@@ -42,7 +42,7 @@ module.exports = class EcoleDirecte {
                 },
                 {})
                 .then(raw => {
-                    switch (options?.format) {
+                    switch (options.format) {
                         case "simplified":
                             reject("simplified mode is not supported yet for grades");
                         default:

@@ -1,5 +1,5 @@
 {
-  "name": "ecoledirecte-api",
+  "name": "ecoledirecte-api-errors-fixed",
   "version": "1.0.1",
   "description": "Unofficial API for ecoledirecte.com",
   "main": "index.js",
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifndev/ecoledirecte-api.git"
+    "url": "git+https://github.com/AnonymoCraft/ecoledirecte-api.git"
   },
   "author": "Ifndev",
+  "contributors": ["AnonymoCraft"],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ifndev/ecoledirecte-api/issues"
+    "url": "https://github.com/AnonymoCraft/ecoledirecte-api/issues"
   },
-  "homepage": "https://github.com/ifndev/ecoledirecte-api#readme",
+  "homepage": "https://github.com/AnonymoCraft/ecoledirecte-api#readme",
   "dependencies": {
     "html-to-text": "^5.1.1",
     "request": "^2.88.2"
