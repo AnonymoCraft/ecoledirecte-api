@@ -21,7 +21,7 @@ module.exports = class EcoleDirecte {
                 },
                 { "date": date })
                 .then(raw => {
-                    switch (options?.format) {
+                    switch (options.format) {
                         case "simplified":
                             resolve(this._parseHomeworks(raw));
                         case "raw":
